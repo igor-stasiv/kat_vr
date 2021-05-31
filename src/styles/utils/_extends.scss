@@ -1,12 +1,11 @@
 %button-play {
+  display: block;
   height: 69px;
   width: 243px;
 
-  background: url(../images/play.svg) no-repeat transparent;
-  border: none;
+  text-decoration: none;
 
-  outline: none;
-  cursor: pointer;
+  background: url(../images/play.svg) no-repeat transparent;
 
   transition: all 0.4s;
 

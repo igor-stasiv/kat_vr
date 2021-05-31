@@ -85,7 +85,9 @@
               </ul>
             </nav>
 
-            <button class="top-actions__button">Buy Now</button>
+            <a href="#contact" class="top-actions__link">
+              <button class="top-actions__button">Buy Now</button>
+            </a>
           </div>
         </div>
 
@@ -110,7 +112,12 @@
 
           <h2 class="content__price">1200$</h2>
 
-          <button class="content__button-play"></button>
+          <a
+            class="content__button-play"
+            href="https://www.youtube.com/watch?v=0k0SZ3ewLTY&ab_channel=KATVR"
+            target="blank"
+          >
+          </a>
         </div>
 
         <div class="header__bottom-menu bottom-menu">
@@ -232,7 +239,12 @@
                 other movement in virtual reality.
               </p>
 
-              <button class="about-product__button-play"></button>
+              <a
+                class="about-product__button-play"
+                href="https://www.youtube.com/watch?v=0k0SZ3ewLTY&ab_channel=KATVR"
+                target="blank"
+              >
+              </a>
             </div>
           </div>
 
@@ -417,6 +429,7 @@
             <p class="contact__field-name">Phone*</p>
             <input
               type="tel"
+              pattern="^\+380\d{3}\d{2}\d{2}\d{2}$"
               name="tel"
               class="contact__field"
               required

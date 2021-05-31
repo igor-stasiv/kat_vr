@@ -46,7 +46,6 @@
   &__button-play {
     position: relative;
     left: -20px;
-    display: block;
     @extend %button-play;
     margin: 0 auto;
   }

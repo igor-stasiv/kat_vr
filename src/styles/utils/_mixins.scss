@@ -29,6 +29,7 @@
 
   font-family: Mark-Pro, sans-serif;
   @include font(14px, 500, 18px);
+  text-decoration: none;
   color: $white;
   background-color: $contrast-color;
   border: none;
